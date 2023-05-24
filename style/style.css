@@ -288,3 +288,113 @@ li {
   margin-top: 10px;
 }
 /* portfollio section end */
+
+/* stay us section start */
+.stay-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url("../img/Stay.png") center top no-repeat;
+	background-size: cover;
+}
+.stay-section .title{
+	width: 100%;
+	float: left;
+	padding: 0 0 50px;
+	text-align: center;
+}
+.stay-section .title h1{
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #fff;
+	margin-bottom: 10px;	
+}
+.stay-section .title p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+}
+.stay-section .main-form{
+	width: 55%;
+	margin: 0px auto;
+}
+.stay-section .main-form .form-group{
+	width: 100%;
+	float: left;
+	margin: 10px 0px;
+}
+.stay-section .main-form .form-group .form-control{
+	width: 95%;
+	padding: 12px;
+	background: transparent;
+	border: 2px solid #999999;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+}
+.stay-section .main-form .form-group .form-control:focus{
+	border: 2px solid #08c;
+	outline: 0;
+}
+.text-right{
+	text-align: right;
+}
+.stay-section .btn-primary{
+	padding: 10px 30px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 2px;
+	transition: 1s;
+}
+.stay-section .btn-primary:hover{
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+}
+.form-group span{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+/* Footer section start*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+}
+.footer-section p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+	margin-top: 5px;
+}
+.footer-section .social-icons{
+	display: block;
+	text-align: right;
+}
+.footer-section .social-icons li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	margin-right: 5px;
+	transition: 1s;
+}
+.footer-section .social-icons li a:hover{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #15a4fa;
+}
